@@ -1,0 +1,29 @@
+.section-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px; 
+  font-family: $sans-serif;
+  width: 80%;
+}
+
+.section-links li a {
+  color: black;
+}
+
+.section-links li:last-of-type{
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+.section-links li a:hover {
+  background-color: $light-gray;
+  text-decoration: none;
+}

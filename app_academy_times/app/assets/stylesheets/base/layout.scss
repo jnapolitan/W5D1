@@ -50,3 +50,17 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
+a {
+  text-decoration: none;
+  color: $dark-gray;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: $gray;
+}
+
+.hidden {
+  display: none;
+}
